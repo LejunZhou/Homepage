@@ -12,6 +12,13 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
+      design:
+        # Use a 1-column layout
+        columns: "1"
+        # Use a dark navy background with light text.
+        background:
+          color: 'navy'
+          text_color_light: true
   - block: features
     content:
       title: Skills
