@@ -1,41 +1,24 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
-tags:
-  - Deep Learning
+title: Liquid Medical Oxygen (LMO) Logistics Network Optimization
+summary: Lejun Zhou, Lavanya Marla, Varun Gupta, Ankur Mani
+tags: 
+  - Logistics
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Logistics Network of LMO
   focal_point: Smart
 
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+#slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
-
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
-
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
-
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+Oxygen is an essential life-saving medicine used in several indications at all levels of healthcare. During the COVID-19 pandemic, the demand for liquid medical oxygen (LMO) has increased significantly due to the occurrence of lung infections in many patients. However, many countries and regions are not prepared for the emergence of this phenomenon, and the limited supply of LMO has resulted in unsatisfied usage needs in many regions. In this project, we aimed to design the optimal LMO allocation strategies with trucks and containers. I formulated a linear programming model with the objective to minimize the unsatisfied demand given the constraints of supply and transportation capacity. The decision variables are how much LMO should be transferred from a place to another at each time interval using a specific number of vehicles. Multiple storage points are added into the network to allow for more flexible allocation strategies. Though the model is linear, the dimensionality is large due to a huge number of vehicles and locations, which brings computational challenges in solving. To tackle this problem, I proposed a dimensionality reduction method to simplify the formulation. Binary parameter matrixes were precalculated to indicate whether a vehicle with diversity work is able to return at a time interval or not. With the help of precomputation, the departure and return trips of a vehicle can be modeled as whole (instead of separately in the original formulation), which greatly reduces the problem scale by eliminating the number of decision variables by 90%. The proposed model is implemented in India with real-world LMO supply and demand data as a case study. Numerical results show that the solving time decreased from 3 minutes to 25 seconds with the proposed dimensionality reduction method. Compared to the manually designed allocation strategy, the proposed model reduces the unsatisfied demand by 20%. The project is still ongoing. I keep meeting with Professor Marla and two other professors involved in the project for weekly discussion. We believe there will be academic output soon.

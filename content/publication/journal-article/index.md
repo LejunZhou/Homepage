@@ -1,12 +1,13 @@
 ---
-title: "An example journal article"
+title: "Acoustic properties of glued laminated bamboo (glubam) and spruce-pine-fir (SPF)"
 authors:
+- Jie Wen
+- Youbohong Kong
+- Yan Xiao
+- Anxu Huang
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+
+date: "2021-09-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -19,23 +20,23 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: Submitted to Building and Environment
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Noise pollution has attracted a wide attention due to its negative effect on human health, and many researchers are working on proposing strategies or developing new materials to improve acoustic performance of structures and building materials. Meanwhile, the worldwide emphasis on sustainable development has motivated the development and application of bio-mass materials in every field, including the engineering construction. The purpose of this study is to measure and investigate the performance of a structure-used glued laminated bamboo (Glubam) and spruce-pinefir (SPF) as soundproof or sound-absorbing materials. The impedance tube method was used to measure the sound reduction index and sound absorption coefficient of glubam and SPF in th lab. After doing some comparison studies, it can be found that glubam and SPF have good performance in sound insulation but behave weakly in sound absorption, and glubam exhibits similar even better aoustic properties than SPF. Moreover, a finite element model was built up using ABAQUS to predict sound insulation properties of materials. According to the numercial results of sound reduction index obtained from the finite element model, developing composite materials and double-layer panles with cavity between should be effective on improving the soundproof performance of SPF and glubam.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary:
 
 tags:
 - Source Themes
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
+links:
+- name: arXiv
+  url: https://doi.org/10.48550/arXiv.2212.04173
+url_pdf: ''
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -46,7 +47,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: 'Image credit: [**Unsplash**]([https://unsplash.com/photos/jdD8gXaTZsc](https://www.istockphoto.com/photo/bamboo-isolated-on-white-background-gm1211392923-351293518?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbamboo-material&utm_term=bamboo%20material%3A%3A%3A))'
   focal_point: ""
   preview_only: false
 
@@ -62,15 +63,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
